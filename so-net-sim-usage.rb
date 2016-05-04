@@ -29,8 +29,8 @@ page2 = agent.submit(form)
 
 e = Nokogiri::HTML(page2.body).xpath('//dl[@class="useConditionDisplay"]')
 
-puts e.children[0].text.strip + ": " + e.children[2].text.strip
-puts e.children[4].text.strip + ": " + e.children[6].text.strip
-puts e.children[8].text.strip + ": " + e.children[10].text.strip
-puts e.children[12].text.strip + ": " + e.children[14].text.strip
+puts e.children[0].text.strip + ": " + e.children[2].text.strip.gsub(/[\r|\n|\t ]*/,"")
+puts e.children[4].text.strip + ": " + e.children[6].text.strip.gsub(/[\r|\n|\t ]*/,"")
+puts e.children[8].text.strip + ": " + e.children[10].text.strip.gsub(/[\r|\n|\t ]*/,"")
+puts e.children[12].text.strip + ": " + e.children[14].text.strip.gsub(/[\r|\n|\t ]*/,"")
 
