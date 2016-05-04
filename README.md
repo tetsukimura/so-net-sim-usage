@@ -4,5 +4,5 @@
 
 # 使い方
 
-2つの環境変数(userid, password)に、So-netの0 SIMのログインIDとパスワードを設定して、so-net-sim-usage.rbを起動する
+2つの環境変数(userid, password)に、So-netの0SIMのログインIDとパスワードを設定して、so-net-sim-usage.rbを起動する
 
