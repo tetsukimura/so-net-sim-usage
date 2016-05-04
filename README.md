@@ -1,6 +1,6 @@
 # so-net-sim-usage: So-netの0 SIMの利用状況取得
 
-So-netのSIM[http://lte.so-net.ne.jp/sim/] の会員ページからデータ使用量を取得してSTDOUTに出力する。
+[So-netの0SIM](http://lte.so-net.ne.jp/sim/0sim/) の会員ページからデータ使用量を取得してSTDOUTに出力する。
 
 # 使い方
 
